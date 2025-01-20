@@ -1,0 +1,51 @@
+/* Styling for video card container */
+.video-card-list {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+  }
+  
+  /* Individual video card styling remains the same */
+  .video-card {
+    min-width: 400px;
+    max-width: 400px;
+    width: 100%;
+    /* padding: 1rem; */
+    /* background: #11026923; */
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+
+  
+  .video-title {
+    font-size: 1rem;
+    color:white;
+    text-align: center;
+    /* margin-bottom: -10px; */
+  }
+  
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    
+  }
+  

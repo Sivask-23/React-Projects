@@ -1,0 +1,262 @@
+.outer-ser{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-ser{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.inner-ser .ser-main-det{
+    background: #6441A5; 
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  
+    background: linear-gradient(to right, #2a0845, #6441A5); 
+    width: 100%;
+    z-index: 2;
+    color: white;
+}
+
+.inner-ser .loadPhase{
+    margin-top: 40px;
+}
+
+.inner-ser .ser-poster{
+    position: relative;
+    width: 100%; 
+    min-height: 90vh;
+    max-height: 90vh; 
+    overflow: hidden; 
+
+    background-color: aqua;
+}
+.poster-image img{
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.ser-poster .ser-overlay{
+    position: absolute;
+    background: linear-gradient(to right, rgb(0, 0, 0) 25%, rgba(0, 0, 0, 0.637) 50%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+}
+
+.ser-poster .ser-poster-data{
+    position: absolute;
+    z-index: 2;
+    /* background-color: #2a0845; */
+    left: 5%;
+    right: 5%;
+    top: 80px;
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    /* flex-wrap: wrap; */
+}
+.ser-poster-data .ser-post{
+    position: relative;
+    flex: 0 0 auto;
+    width: 280px;
+    min-height: 460px;
+    max-height: 460px;
+    border-radius: 15px;
+    overflow: hidden; /* Ensures any overflow is hidden */
+    background-color: aliceblue;
+}
+.ser-post img{
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 15px;
+}
+.ser-poster-data .serdet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    text-align: left;
+    min-width: 400px;
+    max-width: 900px;
+    /* background-color: #6441A5; */
+}
+.serdet .stitle{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.stitle span{
+    font-weight: normal;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.63);
+}
+
+.serdet .ser-poster-det1{
+    display: flex;
+    gap: 15px;
+    /* margin-bottom: 15px; */
+}
+
+.ser-poster-det1 .det1certf{
+    font-size: 1rem;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 0px 5px 4px 5px;
+    border: 1px solid white;
+    /* border-radius: 2px; */
+}
+
+.serdet .serover{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.serover b{
+    font-size: 1.2rem;
+}
+
+
+.ser-poster-det2{
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.ser-poster-det2 .imdbrate{
+    font-size: 1.1rem;
+}
+
+.ser-poster-det2 .ratingStar{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* transform: scale(0.85); */
+}
+
+
+.ser-cur-season{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+.ser-cur-season .seas-title{
+    width: 90%;
+    display: flex;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.ser-cur-season .serdiv{
+    height: auto;
+    width: 90%;
+    /* padding-bottom: 10px; */
+}
+
+.ser-cur-season .allseasons{
+    margin-top: 25px;
+    font-weight: bold;
+    width: 90%;
+    color: white;
+    text-decoration: none;
+    display: flex;
+}
+
+.allseasons:hover{
+    color: aqua;
+}
+
+.serdiv{
+    width: 90%;
+    display: flex;
+    border-radius: 10px;
+    background: linear-gradient(
+    to right, 
+    #0d114e 0%,       /* Solid color starts at 0% */
+    rgba(255, 126, 95, 0) 100% /* Transparent version of the same color at 100% */
+  );
+  cursor: pointer;
+}
+
+.serdiv .seasoncardposter{
+    flex: 0 0 auto;
+    height: 210px;
+    width: 140px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow: hidden;
+    background-color: #6441A5;
+}
+.seasoncardposter img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.serdiv .seasoncon{
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.seasoncon .seas1{
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+.seasoncon .seas2{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.seasoncon .seas3{
+    display: flex;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.seasoncon .seas4{
+    display: flex;
+    width: fit-content;
+    background-color: aliceblue;
+    color: black;
+    padding: 0 5px 2px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+
+    letter-spacing: 0.5px;
+}

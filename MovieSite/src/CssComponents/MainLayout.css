@@ -1,0 +1,10 @@
+.mainLayoutOuter{
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.main-contentLayout{
+    padding-top: 80px;
+   
+}

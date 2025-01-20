@@ -1,0 +1,144 @@
+.outer-allmovies{
+    background-color: white;
+    background: #6441A5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    
+    
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-allmovies{
+    width: 90%;
+    min-height: 100vh;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    display: flex;
+ 
+}
+
+.side1{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.side1 .side1Filter{
+    width: 80%;
+    border: 1px solid black;
+    margin-top: 40px;
+}
+
+.side1 .side1-title{
+    font-size: 1.7rem;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    /* min-height: 80px;
+    max-height: 80px; */
+}
+
+.side21{
+    width: 90%;
+    /* border: 1px solid black; */
+    /* padding-left: 30px; */
+}
+.side2{
+    width: 100%;
+    padding-top: 70px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: white;
+    
+}
+
+
+
+.side2 .mov-card{
+    flex: 0 0 auto;
+    max-width: 190px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-top: 5px;
+    background-color: #f7e3ff;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.705);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    transition: transform 0.4s ease;
+    position: relative;
+}
+
+
+
+.mov-card:hover{
+    transform: scale(1.03);
+    z-index: 1;
+}
+
+
+.mov-card .imgMovCard{
+    width: 190px; /* Fixed width for consistency */
+    height: 270px; /* Fixed height for vertical posters */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+}
+.imgMovCard img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.mov-card .Mov-card-title{
+    color: black;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.05rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 8px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    text-align: left;
+    /* padding: 0 2px 0 8px; */
+    /* background-color: rgb(3, 44, 80); */
+}
+.cardrating{
+    transform: scale(0.6);
+    /* background-color: #6441A5; */
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+    background-color: #02052e;
+    
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.Mov-card-title .movDate{
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: 0.9rem;
+    
+}

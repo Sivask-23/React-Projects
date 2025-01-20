@@ -1,0 +1,114 @@
+.outer-Trend{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.outer-Trend .trend-title{
+    width: 90%;
+    color: black;
+    font-weight: bold;
+    font-size: 1.7rem;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.outer-Trend .inner-Trend{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blue; */
+    margin-top: 20px;
+}
+
+.trending-track{
+    width: 95%;
+    /* max-height: 400px; */
+    /* background-color: burlywood; */
+    display: flex;
+    align-items: start;
+    gap: 15px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 20px;
+    scroll-behavior: smooth;
+    
+}
+
+.trending-track .trend-card{
+    flex: 0 0 auto;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-top: 5px;
+    /* background-color: aliceblue; */
+}
+
+.trend-card:hover{
+    transform: scale(1.03);
+}
+
+.trend-card .imgCard{
+    width: 200px; /* Fixed width for consistency */
+    height: 300px; /* Fixed height for vertical posters */
+    border-radius: 20px;
+    overflow: hidden;
+}
+.imgCard img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.trend-card .Trend-card-title{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.rgtbtn{
+    margin-left: 5px;
+}
+.lftbtn{
+    margin-right: 5px;
+}
+
+.rgtbtn button{
+    border-radius: 50%;
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 3px 5px 5px;
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.2s ease;
+}
+
+.lftbtn button{
+    border-radius: 50%;
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px 5px 3px;
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.2s ease;
+}
+
+.lftbtn button:hover,.rgtbtn button:hover{
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+

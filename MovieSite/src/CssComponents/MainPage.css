@@ -1,0 +1,49 @@
+.outer-MainPage{
+    background-color: #3e187a;
+    background-image: linear-gradient(316deg, #3e187a 0%, #994ecc 74%);
+     
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+}
+
+.welSec{
+    width: 100%;
+    height: 350px;
+    background-color: #3e187a;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+.welSec .wel-title{
+    width: 90%;
+    font-size: 3.5rem;
+    font-weight: bold;
+    /* margin-top: 40px; */
+    /* background-color: aliceblue; */
+}
+
+.welSec .wel-slogan{
+    width: 90%;
+    font-size: 2.8rem;
+    display: flex;
+    gap: 10px;
+}
+
+.sloganclr{
+    background-image: linear-gradient(to left top, #00f7ff, #00ebff, #00cbff, #6396ff, #ffffff);
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.5px; /* Adds spacing between letters */
+}
+
+.mainpage-sec1{
+    width: 100%;
+    /* background-color: #00ebff; */
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+}

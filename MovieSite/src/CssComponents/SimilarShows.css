@@ -1,0 +1,53 @@
+.similar-shows {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    padding-left: 5px;
+  }
+
+  .sim-not{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+  }
+  
+  .shows-list {
+    display: flex;
+    height: auto;
+    gap: 16px;
+  }
+  
+  .show-card {
+    flex: 0 0 auto;
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 200px;
+    max-height: 200px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .show-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.63);
+    transition: transform 0.3s;
+  }
+  
+  .show-card img:hover {
+    transform: scale(1.03);
+  }
+  
+  .show-card p {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: white;
+    font-weight: bold;
+  }
+  

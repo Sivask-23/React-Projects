@@ -1,0 +1,146 @@
+.outer-allseason{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-outerseason-ban{
+    margin-top: 20px;
+    width: 100%;
+    min-height: 150px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.inner-season-postData{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+
+.inner-season-postData img{
+    flex: 0 0 auto;
+    height: 100%;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.inner-outerseason-ban .postData-title{
+    font-size: 2.2rem;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    margin-left: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+}
+
+.postData-title .postData-title1{
+    font-size: 2rem;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.allseasoninnerdata{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    /* background-color: aqua; */
+}
+
+
+
+.serall-cur-season{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #6441A5; */
+}
+
+
+.serall-cur-season .serdivall{
+    height: auto;
+    width: 90%;
+    background: linear-gradient(
+    to right, 
+    #2961c9 0%,       /* Solid color starts at 0% */
+    rgba(255, 126, 95, 0) 100% /* Transparent version of the same color at 100% */
+  );
+  background-color: #2961c9;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.serdivall{
+    width: 90%;
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.serdivall .seasoncardposterall{
+    flex: 0 0 auto;
+    /* height: 100%; */
+    width: 150px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+    /* background-color: #6441A5; */
+}
+.seasoncardposterall img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.serdivall .seasonconall{
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.seasonconall .seas1{
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.seasonconall .seas2{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.seasonconall .seas3{
+    display: flex;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.seasonconall .seas4{
+    display: flex;
+    width: fit-content;
+    background-color: aliceblue;
+    color: black;
+    padding: 0 5px 2px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+
+    letter-spacing: 0.5px;
+}

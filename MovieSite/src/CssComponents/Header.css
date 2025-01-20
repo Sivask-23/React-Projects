@@ -1,0 +1,148 @@
+.outerHead{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b4162;
+    background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+    z-index: 5;
+
+
+}
+
+.innerHead{
+    width: 90%;
+    height: 70%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.innerHead .logodiv{
+    flex: 0 0 auto;
+    height: 100%;
+    width: 200px;
+    /* border: 1px solid rgb(255, 255, 255); */
+    overflow: hidden;
+}
+
+.logodiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.4);
+    cursor: pointer;
+    /* background-color: aliceblue; */
+}
+
+.innerHead .navDiv{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    /* width: 200px; */
+    /* border: 1px solid white; */
+}
+
+.navDiv .down1, .down2, .down3{
+    display: flex;
+    align-items: center;
+    /* height: 100%; */
+    letter-spacing: 0.5px;
+    /* background-color: aliceblue; */
+    text-decoration: none;
+    font-weight: bold;
+    color: white; /* Optional: White text for contrast */
+    font-size: 1.05rem;
+    cursor: pointer;
+    
+}
+.navDiv .down1:hover,.down2:hover,.down3:hover{
+    color: aqua;
+}
+
+.innerHead .otherDiv{
+    width: 300px;
+    height: 100%;
+    /* border: 1px solid rgb(72, 255, 0); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.otherDiv .hdIcon{
+    cursor: pointer;
+}
+
+.navDiv .movDrop{
+    display: flex;
+    position: absolute;
+    /* background-color: aqua; */
+    height: 135px;
+    z-index: 10;
+    top: 40px;
+    left: 8px;
+    padding-top: 10px;
+}
+
+.movDrop .movdropsel{
+    /* display: none; */
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    width: 160px;
+    height: 130px;
+    overflow: hidden;
+    padding-top: 3px;
+    border-radius: 10px;
+    padding-bottom: 3px;
+}
+
+.movdropsel .l1{
+    padding: 6px 2px 6px 15px;
+    font-weight: normal;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: black;
+    /* transition: background-color 0.1s ease; */
+}
+
+.l1:hover{
+    background-color: #54f9ff;
+}
+
+.movDrop2{
+    display: flex;
+    position: absolute;
+    /* background-color: aqua; */
+    height: 135px;
+    z-index: 10;
+    top: 40px;
+    left: 80px;
+    padding-top: 10px;
+}
+
+.movDrop2 .movdropsel{
+    /* display: none; */
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    width: 160px;
+    height: 130px;
+    overflow: hidden;
+    padding-top: 3px;
+    border-radius: 10px;
+    padding-bottom: 3px;
+}
+
+
