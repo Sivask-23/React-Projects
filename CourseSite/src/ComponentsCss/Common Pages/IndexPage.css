@@ -1,0 +1,105 @@
+.outer-index{
+    width: 100%;
+    background-color: rgb(66, 162, 218);
+    min-height: calc(100vh - 60px);
+    color: white;
+}
+
+.inner-index{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index-poster{
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: rgb(160, 21, 214);
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    overflow: hidden;
+    background-size: cover;
+    background-position: right;
+}
+
+.index-poster img{
+    height: 90%;
+    width: 40%;
+    background-size: contain;
+    /* background-color: black; */
+}
+.index-poster .index-poster-data{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(61, 89, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 50px;
+    
+}
+
+.index-poster-data .banner-data{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.banner-data p{
+    margin: 0;
+    padding-left: 0;
+}
+
+.index-poster-data .banner-data-intro{
+    text-align: left;
+    display: flex;
+    max-width: 90%;
+    font-size: 1.2rem;
+    color: aqua;
+}
+
+.index-poster-data .banner-data-btn{
+    margin-top: 30px;
+}
+
+.banner-data-btn .banner-btn{
+    background-color: white;
+    color: rgb(0, 0, 0);
+
+}
+
+.feat-courses{
+    width: 100%;
+    height: 100vh;
+    padding-top: 60px;
+    background-position:center;
+    background-size: cover;
+}
+
+.feat-courses .feat-title{
+    font-size: 3rem;
+    color: black;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff7e5f, #1909fa);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
+}
+
+
+.feat-courses .feat-card-space{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    /* background-color: #1909fa; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}

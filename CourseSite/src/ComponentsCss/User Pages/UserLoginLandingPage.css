@@ -1,0 +1,314 @@
+.outer-userland{
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.inner-userland{
+    width: 100%;
+    height: calc(100vh - 60px);
+    /* background-color: rgb(128, 202, 202); */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.user-dash.active{
+    width: 240px;
+    height: 97%;
+    background-color: rgb(0, 0, 0);
+    /* border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    transition: width 0.3s ease-in;
+
+}
+
+.user-dash{
+    width: 60px;
+    height: 97%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 3px solid white;
+    transition: width 0.3s ease-in;
+}
+
+
+
+.userinnerdash{
+    height: 98%;
+    width: 96%;
+    position: relative;
+    /* background-color: rgb(204, 62, 192); */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.userdashprofile{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 95%;
+}
+
+.user-dash.active .userdashprofileS{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    width: 95%;
+    margin-left: 0px;
+    /* padding: 5px; */
+    border-radius: 5px;
+    cursor: pointer;
+    /* background-color: rgba(0, 255, 255, 0.219); */
+}
+
+.user-dash.active .userdashprofileS.selected{
+    background-color: rgba(0, 255, 255, 0.219);
+}
+
+.user-dash.active .userdashprofileS:hover{
+    background-color: rgba(0, 255, 255, 0.219);
+}
+
+.user-dash .userdashprofileS{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    width: 90%;
+    margin-left: 9px;
+    transition: margin-left 0.3s ease-in-out;
+    /* background-color: rgb(0, 4, 255); */
+}
+
+
+
+
+
+
+.userdashimg{
+    width: 50px;
+    /* background-color: rgb(103, 255, 2); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    border-radius: 50%;
+    margin-right: 30px;
+    cursor: pointer;
+
+}
+
+.user-dash.active .userdashimgS{
+    width: 25px;
+    /* background-color: white; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    /* border-radius: 50%; */
+    margin-right: 10px;
+    transition: margin-right 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.user-dash .userdashimgS{
+    width: 25px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    /* border-radius: 50%; */
+    margin-right: 18px;
+    transition: margin-right 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+
+.user-dash.active .userdashimgS:hover{
+    background-color: rgba(0, 255, 255, 0);
+    border-radius: 5px;
+}
+
+.user-dash .userdashimgS:hover{
+    background-color: rgba(0, 255, 255, 0.226);
+    border-radius: 5px;
+}
+.user-dash .userdashimgS.selected{
+    background-color: #ffffff;
+    transition: background-color 0.3s ease-in;
+    border-radius: 5px;
+}
+.user-dash.active .userdashimgS.selected{
+    background-color: rgba(255, 255, 255, 0);
+    transition: background-color 0.3s ease-in;
+    border-radius: 5px;
+}
+
+
+
+
+.userdashname{
+    font-size: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    /* background-color: aliceblue; */
+}
+
+.userdashnameS{
+    font-size: 1rem;
+    flex-grow: 1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* font-weight: bold; */
+    color: rgb(255, 255, 255);
+    /* background-color: aliceblue; */
+}
+
+.usdsec1{
+    margin-top: 50px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.usdsec2{
+    position: absolute;
+    
+    bottom: 0;
+    margin-top: 110px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.user-land-cont{
+    min-width: 900px;
+    flex-grow: 1;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    /* transition: flex-grow 0.3s ease-out; */
+    /* background-color: aqua; */
+
+}
+
+
+
+.user-land-cont .user-land-banner{
+    width: 98%;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 15px;
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+
+.user-land-banner .banner1{
+    flex: 0 0 auto;
+    width: 220px;
+    height: 90%;
+}
+
+.user-land-banner .user-banner-welcome{
+    flex-grow: 1;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    /* background-color: aliceblue; */
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 0.8px;
+    color: rgb(0, 60, 255);
+
+
+}
+.user-land-pagerend{
+    width: 98%;
+    /* background-color: rgb(207, 70, 196); */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow-y: auto;
+}
+
+.user-other{
+    height: 99%;
+    width: 280px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.user-other-inner{
+    width: 100%;
+    height: 95%;
+    border-radius: 20px;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.other-calender{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    /* background-color: rgb(255, 255, 255); */
+    overflow: auto;
+    margin-top: 70px;
+}

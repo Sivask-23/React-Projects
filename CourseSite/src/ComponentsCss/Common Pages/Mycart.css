@@ -1,0 +1,256 @@
+.outer-mycart{
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-mycart{
+    width: 80%;
+    /* background-color: beige; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mycart-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.mycart-desc .descTitle{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.mycart-desc .descnum{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+
+.cartlayer1{
+    min-width: 1200px;
+    width: 100%;
+
+    /* display: flex;
+    flex-direction: column; */
+    /* background-color: aqua; */
+}
+
+.allcart-view{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #1916ce; */
+}
+
+.cardStack{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.allcart-view .cartCard{
+    min-width: 700px;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(114, 92, 252);
+    color: white;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.452);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.allcart-view .cartCard:hover{
+   transform: scale(1.01);
+}
+
+.cartCard img{
+    height: 100%;
+    width: auto;
+}
+
+.cartCard .cartCarddet{
+    flex-grow: 1;
+    margin-left: 15px;
+    display: flex;
+    padding: 8px;
+}
+
+.cartCarddet1{
+    min-width: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.cartcardt1{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.cartcardt2{
+    font-size: 1rem;
+    /* font-weight: 600; */
+    margin-bottom: 15px;
+}
+
+.cartCarddet2{
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* text-align: center; */
+    /* background-color: antiquewhite; */
+
+}
+
+.cartSummary{
+
+    width: 300px;
+    height: fit-content;
+    padding: 10px;
+    /* background-color: #403ddd; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: -85px;
+}
+
+.cartSummary .sumtitle{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.644);
+}
+
+.cartSummary .sumtotal{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.cartSummary .sumcheck{
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: #9a02ff;
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.cartSummary .sumcheck:hover{
+    background-color:#1b28e2da ;
+}
+
+.cartSummary hr{
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    width: 300px;
+}
+
+.cartSummary p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.sumcoupon{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -15px;
+}
+
+.sumcoupon .sumin{
+    height: 100%;
+    width: 65%;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.sumcoupon .sumbt{
+    height: 35px;
+    width: 25%;
+    border: none;
+    background-color: #9a02ff;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sumcoupon .sumbt:hover{
+    background-color: #8710d8;
+
+}
+
+
+
+.cartCarddet2 .cartcardp{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.cartCarddet2 .cartcardr{
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.allcart-view .keepshop{
+    margin-top: -50px;
+    width: 100%;
+    min-height: 300px;
+    /* background-color: aqua; */
+}
+
+.keepshop img{
+    height: 300px;
+    /* width: 1; */
+}
+
+.keepshop .kshop{
+    margin-top: 10px;
+    padding: 15px 10px;
+    background-color: #403ddd; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer; /* Change cursor to pointer */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.keepshop p{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.keepshop .kshop:hover{
+    background-color: #1916ce;
+    transform: scale(1.05);
+}

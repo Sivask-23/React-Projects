@@ -1,0 +1,147 @@
+.outer-cards{
+    width: 100%;
+    /* min-height: 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-cards{
+    width: 95%;
+    /* min-height: 500px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 170px 40px;
+    /* background-color: black; */
+}
+
+.card-outer{
+    flex: 0 0 auto;
+    min-height: 300px;
+    /* max-height: 300px; */
+    width: 400px;
+    background-color: #ffffffb4;
+    color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 1px 15px 20px rgba(0, 0, 0, 0.3),-3px 8px 13px rgba(0, 0, 0, 0.3);
+    padding-bottom: 25px;
+
+
+}
+
+.card-inner-img{
+    position: absolute;
+    width: 380px;
+    height: 230px;
+    top: -35%;
+    background-color: aqua;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.card-inner-img img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.card-data-box{
+    min-width: 85%;
+    max-width: 85%;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    /* padding-top: 37%; */
+    margin-top: calc(250px / 2);
+    /* background-color: beige; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.card-data-box .card-data-title{
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    word-wrap: break-word;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.card-data-box .card-data-details1{
+    gap: 10px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    /* flex-wrap: wrap; */
+    /* background-color: aqua; */
+}
+
+.card-data-box .card-data-details1 img{
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    /* background-color: black; */
+}
+.card-data-box .card-data-details1 .cdd1 {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    margin-right: 10px;
+}
+
+.card-data-box .card-data-details2{
+    width: 100%;
+    position: relative;
+}
+
+.card-data-box .card-data-details2 .cdd2{
+    width: 80%;
+    height: 35px;
+    background-color: rgba(213, 226, 226, 0.637);
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 30px;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+}
+
+.card-data-box .card-data-details2 .cdd3{
+    position: absolute;
+    top: -10px;
+    right: 0;
+}
+
+.card-data-box .card-data-details2 .cdd3 button{
+    /* width: 120px; */
+    padding: 10px 8px;
+    background-color: #28a745; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer; /* Change cursor to pointer */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.card-data-box .card-data-details2 .cdd3 button:hover{ 
+    background-color: #218838;
+    transform: scale(1.05);
+}
+

@@ -1,0 +1,36 @@
+.outer-allcourses{
+    width: 100%;
+    /* min-height: calc(100vh - 60px); */
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position:left;
+    background-color: aqua;
+}
+
+.outer-allcourses .inner-allcourses{
+    width: 90%;
+    /* min-height: 95%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* flex-grow: 1; */
+    /* background-color: aqua; */
+   
+}
+
+.allcourse-title{
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(5, 28, 71);
+}
+
+.allcourses-cont{
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    /* background-color: antiquewhite; */
+}

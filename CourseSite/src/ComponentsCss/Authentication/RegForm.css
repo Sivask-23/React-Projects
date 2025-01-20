@@ -1,0 +1,154 @@
+.outer-reg{
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    /* background-color: rgb(6, 11, 83); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.inner-reg{
+    max-width: 450px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 80px;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.inner-reg .reg-content{
+    margin-top: 60px;
+    width: 90%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.inner-reg .reg-title{
+  position: absolute;
+  top: -50px;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.986) 60%, rgba(255, 255, 255, 0));
+  padding: 10px 10px 10px 10px;
+}
+
+.reg-title img{
+  height: 80%;
+  width: 80%;
+  background-size: cover;
+}
+
+
+.custom-textfield .MuiOutlinedInput-root {
+    border-radius: 10px; /* Rounded corners */
+    height: 45px;
+    
+  }
+  
+  .custom-textfield .MuiOutlinedInput-root:hover fieldset {
+    border: 2px solid black;
+   
+  }
+  
+  .custom-textfield .MuiOutlinedInput-root.Mui-focused fieldset {
+    border-color: rgb(17, 0, 255); /* Focused border color */
+  }
+
+  .custom-textfield .MuiInputLabel-root {
+    color: #726e6e; /* Label color */
+    top: -5px;
+  }
+
+  .custom-textfield .MuiInputLabel-root.Mui-focused {
+    color: #000000; /* Label color when focused */
+    /* top: -3px; */
+  }
+
+  .box{
+    margin-bottom: 20px;
+
+  }
+
+  .reg-content .submit-btn{
+    width: 120px;
+    height: 30px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Phones */
+@media (max-width: 576px) {
+  .inner-reg {
+    max-width: 350px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  .inner-reg {
+    /* padding-top: 20px; */
+    max-width: 300px;
+    width: 100%;
+    /* height: 300px; */
+  }
+  .box{
+    margin-bottom: 20px;
+    height: 50px;
+  }
+}
+
+/* Tablets */
+@media (min-width: 576px) and (max-width: 768px) {
+  .inner-reg {
+    max-width: 400px;
+    width: 100%;
+  }
+}
+
+/* Laptops */
+@media (min-width: 768px) and (max-width: 992px) {
+  .inner-reg {
+    max-width: 450px;
+    width: 100%;
+  }
+}
+
+/* Desktops */
+@media (min-width: 992px) {
+  .inner-reg {
+    max-width: 450px;
+    width: 100%;
+  }
+}
+
+
